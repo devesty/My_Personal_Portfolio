@@ -40,6 +40,10 @@ const userInformationDataSchema = new mongoose.Schema({
     passwordHash: {
         required: true,
         type: String
+    },
+    token: {
+        required: false,
+        type: String
     }
     });
     
